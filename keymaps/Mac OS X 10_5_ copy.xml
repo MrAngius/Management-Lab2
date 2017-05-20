@@ -3,4 +3,8 @@
     <keyboard-shortcut first-keystroke="ctrl alt i" />
     <keyboard-shortcut first-keystroke="meta alt i" />
   </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
+  </action>
 </keymap>
