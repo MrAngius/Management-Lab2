@@ -10,8 +10,12 @@
           <option name="url" value="https://github.com/MrAngius/SmartGym.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/MrAngius/Management-Lab2.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/OneDrive/Documenti/Sviluppo/Pycharm Projects/IoT Project/SmartGym" />
+    <option name="cloneParentDir" value="$USER_HOME$/OneDrive/Documenti/Sviluppo/Pycharm Projects/Management/Lab2" />
   </component>
 </application>
