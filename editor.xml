@@ -16,5 +16,15 @@
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="ab9319" />
     </pattern>
+    <pattern useCustomColors="true" pattern="\bspec\b.*">
+      <option name="FOREGROUND" value="8ec084" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="ab9319" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bDEBUG\b.*">
+      <option name="FOREGROUND" value="c0bb00" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="ab1900" />
+    </pattern>
   </component>
 </application>
