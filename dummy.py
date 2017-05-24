@@ -1,5 +1,6 @@
 import simpy
 import random
+import numpy
 
 
 # todo: create a script to load a list of objects of class file, reading the .txt file
@@ -7,11 +8,11 @@ def createFileObject():
     with open('C:\Users\Matteo\Desktop\PoliTO\Managment and content delivery\Lab\Lab2\Throughput.txt') as f:
         content = f.readlines()
         # removing whitespace characters like `\n` at the end of each line
-    content = [x.strip('\n') for x in content]
+    return [x.strip('\n') for x in content]
 
 # todo: include the log-normal function
 def logNormComputation(mu, sigma):
-    s = random.lognormal(mu, sigma, 1000) #last number is the size for output shape. I don't think is necessary
+    return numpy.random.lognormal(mu, sigma, 1000) #last number is the size for output shape. I don't think is necessary
 
 def device(environment, name):
 
@@ -53,7 +54,7 @@ class Server:
     # spec: a method to create as many lists as devices
     # todo: think about a possible implementation of this method
     def createDownloadLists(self):
-
+        pass
 
     # spec: the server should periodically check the online devices and then provide the relative files
     def run(self):
