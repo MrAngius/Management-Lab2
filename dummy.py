@@ -4,26 +4,29 @@ import numpy
 
 
 # todo: create a script to load a list of objects of class file, reading the .txt file
-def createFileObject():
+def create_file_object():
     with open('C:\Users\Matteo\Desktop\PoliTO\Managment and content delivery\Lab\Lab2\Throughput.txt') as f:
         content = f.readlines()
         # removing whitespace characters like `\n` at the end of each line
     return [x.strip('\n') for x in content]
 
+
 # todo: include the log-normal function
-def logNormComputation(mu, sigma):
-    return numpy.random.lognormal(mu, sigma, 1000) #last number is the size for output shape. I don't think is necessary
+def log_norm_computation(mu, sigma):
+    # last number is the size for output shape. I don't think is necessary
+    return numpy.random.lognormal(mu, sigma, 1000)
+
 
 def device(environment, name):
 
     while True:
         # modify: use a log-normal mu: 8.492 sigma: 1.545
-        session_duration = logNormComputation(8.492,1.545)
+        session_duration = log_norm_computation(8.492,1.545)
 
         # implement: include the log_in device call (including the selected SF and ID)
         while session_duration > 0:
             # modify: use a log-normal mu: 3.748 sigma: 2.286
-            inter_upload_time = logNormComputation(3.748, 2.286)
+            inter_upload_time = log_norm_computation(3.748, 2.286)
             # control for the possibility of the last upload
 
             yield environment.timeout(inter_upload_time)
@@ -53,7 +56,7 @@ class Server:
 
     # spec: a method to create as many lists as devices
     # todo: think about a possible implementation of this method
-    def createDownloadLists(self):
+    def create_download_lists(self):
         pass
 
     # spec: the server should periodically check the online devices and then provide the relative files
