@@ -1,8 +1,5 @@
 from collections import deque
 from numpy import random
-import simpy
-import sys
-import os
 
 
 class SharedFolder(object):
