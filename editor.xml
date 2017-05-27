@@ -1,0 +1,24 @@
+<application>
+  <component name="SqlEditorOptions">
+    <option name="qualificationType" value="On collisions" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bmodify\b.*">
+      <option name="FOREGROUND" value="c05600" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bimplement\b.*">
+      <option name="FOREGROUND" value="1195c0" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bDEBUG\b.*">
+      <option name="FOREGROUND" value="c0b600" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+  </component>
+</application>
