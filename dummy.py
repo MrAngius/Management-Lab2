@@ -14,14 +14,14 @@ def create_file_object():
 # todo: include the log-normal function
 def log_norm_computation(mu, sigma):
     # last number is the size for output shape. I don't think is necessary
-    return numpy.random.lognormal(mu, sigma, 1000)
+    return numpy.random.lognormal(mu, sigma)
 
 
 def device(environment, name):
 
     while True:
         # modify: use a log-normal mu: 8.492 sigma: 1.545
-        session_duration = log_norm_computation(8.492,1.545)
+        session_duration = log_norm_computation(8.492, 1.545)
 
         # implement: include the log_in device call (including the selected SF and ID)
         while session_duration > 0:
@@ -77,4 +77,4 @@ if __name__ == "__main__":
     env.process(device(env, "matteo"))
     env.process(device(env, "carla"))
 
-    env.run(until=80)
+    env.run(until=800)
