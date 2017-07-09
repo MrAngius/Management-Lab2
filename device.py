@@ -290,7 +290,6 @@ class SimulationDevice(skeleton.Device):
 
                                 if devices[selected_peer].status:
                                     dic_list_files[file_id].owners.append(self.id)
-                                    self.total_downloaded_traffic += dic_list_files[file_id].size
                                     self.file_to_download.pop(0)
                                     # spec: update global stats
                                     self.total_downloaded_p2p += dic_list_files[file_id].size
@@ -534,7 +533,7 @@ def clear_trace_file(trace):
 if __name__ == "__main__":
 
     # number of devices in the simulation
-    NUM_DEV = [800, 1600]
+    NUM_DEV = [20, 50, 100, 200, 400, 800]
     SHUFFLE = True
     SIM_TIME = 10000
     NUM_SIM = 4
@@ -554,12 +553,12 @@ if __name__ == "__main__":
     else:
         create_files_object(files_object_list)
 
-    for mode in [False]:
+    for mode in [True]:
         P2P = mode
 
         for n_dev in NUM_DEV:
 
-            for recovery in [False, True]:
+            for recovery in [False]:
 
                 RECOVERY_DW = recovery
                 RECOVERY_UP = recovery
