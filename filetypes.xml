@@ -12,6 +12,7 @@
       <mapping pattern="Config_set" type="JSON" />
       <mapping pattern="combination.py" type="PLAIN_TEXT" />
       <mapping pattern="Comb" type="PLAIN_TEXT" />
+      <mapping pattern="catalog_communications" type="PLAIN_TEXT" />
       <mapping pattern="prova" type="PLAIN_TEXT" />
       <mapping ext="python" type="Perl" />
       <mapping ext="web services" type="Python" />
