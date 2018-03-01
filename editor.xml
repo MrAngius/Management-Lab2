@@ -13,7 +13,7 @@
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\bimplement\b.*">
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bimplementation\b.*">
       <option name="FOREGROUND" value="1195c0" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
