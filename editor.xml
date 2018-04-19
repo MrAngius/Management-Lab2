@@ -6,14 +6,18 @@
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
+    <pattern useCustomColors="true" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="f4d03f" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="f1c40f" />
+    </pattern>
     <pattern pattern="\bfixme\b.*" />
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\bmodify\b.*">
+    <pattern useCustomColors="true" pattern="\bmodify\b.*">
       <option name="FOREGROUND" value="c05600" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\bDEBUG\b.*">
+    <pattern useCustomColors="true" pattern="\bDEBUG\b.*">
       <option name="FOREGROUND" value="c0b600" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
