@@ -27,5 +27,10 @@
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bNOTE\b">
+      <option name="FOREGROUND" value="94c0" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="39ab68" />
+    </pattern>
   </component>
 </application>
