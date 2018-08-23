@@ -4,12 +4,13 @@
     <extensionMap>
       <mapping pattern="Entry_req" type="JSON" />
       <mapping pattern="Resoure_reg" type="JSON" />
-      <mapping pattern="Service_reg" type="JSON" />
+      <mapping pattern="Resoure_reg_mqtt" type="JSON" />
       <mapping pattern="Entry_resp" type="JSON" />
       <mapping pattern="Service_resp" type="JSON" />
       <mapping pattern="Config_file" type="JSON" />
-      <mapping pattern="Resoure_reg_mqtt" type="JSON" />
+      <mapping pattern="Service_reg" type="JSON" />
       <mapping pattern="Config_set" type="JSON" />
+      <mapping ext="conf" type="JSON" />
       <mapping pattern="Comb" type="PLAIN_TEXT" />
       <mapping pattern="combination.py" type="PLAIN_TEXT" />
       <mapping pattern="catalog_communications" type="PLAIN_TEXT" />
@@ -17,8 +18,8 @@
       <mapping ext="python" type="Perl" />
       <mapping ext="web services" type="Python" />
       <mapping ext="java" type="Python" />
-      <mapping pattern="Service_db" type="TSLint" />
       <mapping pattern="Resource_db" type="TSLint" />
+      <mapping pattern="Service_db" type="TSLint" />
     </extensionMap>
   </component>
 </application>
