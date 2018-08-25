@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="File '.../smartgym_packages/utilities/sensors/manager_GPIO.py [SmartGymDev]'" />
     <option name="defaultScopeName" value="File '.../smartgym_packages/utilities/sensors/manager_GPIO.py [SmartGymDev]'" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File '.../smartgym_packages/utilities/sensors/manager_GPIO.py [SmartGymDev]'" />
   </component>
 </application>
